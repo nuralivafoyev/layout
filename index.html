@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +12,15 @@
     <link rel="stylesheet" href="./style.min.css">
     <title>Bootstrap Layout</title>
 </head>
+
 <body style="background-color: #FFFAF5;">
     <header>
         <div class="container">
             <nav class="nav d-flex justify-content-between align-items-center">
                 <a href="#"><img src="./images/logo.svg" alt="logo"></a>
-                
-                <ul class="d-xl-flex justify-content-between list-unstyled gap-3 align-items-center d-sm-none d-xs-none">
+
+                <ul
+                    class="d-xl-flex justify-content-between list-unstyled gap-3 align-items-center d-sm-none d-xs-none">
                     <li><a class="text-decoration-none" href="#">Акции</a></li>
                     <li><a class="text-decoration-none" href="#">Каталог</a></li>
                     <li><a class="text-decoration-none" href="#">Доставка</a></li>
@@ -29,41 +32,41 @@
                     <input type="search" placeholder="Поиск">
                     <i class="bx bx-search"></i>
                 </div>
-                
+
                 <div class="nav_buy">
                     <i class='bx bx-heart'></i>
-                    <i class='bx bx-cart-download'></i> 
-                    
+                    <i class='bx bx-cart-download'></i>
+
                     <select class="select-box">
                         <option value="">2 228 грн.</option>
                         <option value="first">тут нет ничего</option>
                         <option value="second">ахахаха</option>
                         <option value="third">с рамаданам</option>
-                    </select>                     
+                    </select>
                 </div>
             </nav>
         </div>
     </header>
 
-    <main class="">
+    <main class="pt-5">
         <div class="container">
             <div id="intro" class="row align-items-center">
                 <div class="intro_left col-xl-6 align-items-md-center col-md-12 p-3">
-                    <h1>Киниги от  А до Я</h1>
-                    <p style="width: 60%;">В нашем магазине можно найти книгу на любой вкус. Большой ассортимент. Приятные цены. Интересные сюжеты.</p>
-                    <button class="btn rounded-0 text-light intro_btn" style="background-color: #e16a00;">Перейти в каталог</button>
+                    <h1>Киниги от А до Я</h1>
+                    <p style="width: 60%;">В нашем магазине можно найти книгу на любой вкус. Большой ассортимент.
+                        Приятные цены. Интересные сюжеты.</p>
+                    <button class="btn rounded-0 text-light intro_btn" style="background-color: #e16a00;">Перейти в
+                        каталог</button>
                 </div>
                 <div class="intro_right col-xl-6 col-md-12 p-3">
-                    <img 
-                    style="mix-blend-mode: multiply;" 
-                    src="./images/slider.jpg" 
-                    alt="Russian Books" >
+                    <img style="mix-blend-mode: multiply;" src="./images/slider.jpg" alt="Russian Books">
                 </div>
             </div>
 
             <div id="cards">
                 <div class="texts row">
-                    <h1 class="col-4" style="font-weight: 900; font-size: 25px; color: #241400;">Горячие поступления</h1>
+                    <h1 class="col-4" style="font-weight: 900; font-size: 25px; color: #241400;">Горячие поступления
+                    </h1>
                     <ul class="col-8 d-xl-flex gap-5 list-unstyled align-items-center">
                         <li>Фантастика</li>
                         <li>Саморазвитие</li>
@@ -74,57 +77,67 @@
                     </ul>
                 </div>
                 <div style="border: none;" class="cards d-flex justify-content-between pt-5">
-                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                    <div style="display: flex; flex-direction: column;"
+                        class="card shadow p-2 align-items-center d-flex">
                         <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
                         <h1 style="display: inline-block;">300 грн.</h1>
                         <strong style="display: inline-block;">Порядок в Хаосе</strong>
                         <p style="display: inline-block;">Константин Коптелов</p>
                         <div class="d-flex gap-1 align-items-center card-btn">
-                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <button style="background-color: #e16a00;"
+                                class="btn orange rounded-1 text-light border-1">В корзину</button>
                             <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
                         </div>
                     </div>
 
-                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                    <div style="display: flex; flex-direction: column;"
+                        class="card shadow p-2 align-items-center d-flex">
                         <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
                         <h1 style="display: inline-block;">300 грн.</h1>
                         <strong style="display: inline-block;">Порядок в Хаосе</strong>
                         <p style="display: inline-block;">Константин Коптелов</p>
                         <div class="d-flex gap-1 align-items-center card-btn">
-                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <button style="background-color: #e16a00;"
+                                class="btn orange rounded-1 text-light border-1">В корзину</button>
                             <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
                         </div>
                     </div>
 
-                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                    <div style="display: flex; flex-direction: column;"
+                        class="card shadow p-2 align-items-center d-flex">
                         <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
                         <h1 style="display: inline-block;">300 грн.</h1>
                         <strong style="display: inline-block;">Порядок в Хаосе</strong>
                         <p style="display: inline-block;">Константин Коптелов</p>
                         <div class="d-flex gap-1 align-items-center card-btn">
-                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <button style="background-color: #e16a00;"
+                                class="btn orange rounded-1 text-light border-1">В корзину</button>
                             <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
                         </div>
                     </div>
 
-                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                    <div style="display: flex; flex-direction: column;"
+                        class="card shadow p-2 align-items-center d-flex">
                         <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
                         <h1 style="display: inline-block;">300 грн.</h1>
                         <strong style="display: inline-block;">Порядок в Хаосе</strong>
                         <p style="display: inline-block;">Константин Коптелов</p>
                         <div class="d-flex gap-1 align-items-center card-btn">
-                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <button style="background-color: #e16a00;"
+                                class="btn orange rounded-1 text-light border-1">В корзину</button>
                             <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
                         </div>
                     </div>
 
-                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                    <div style="display: flex; flex-direction: column;"
+                        class="card shadow p-2 align-items-center d-flex">
                         <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
                         <h1 style="display: inline-block;">300 грн.</h1>
                         <strong style="display: inline-block;">Порядок в Хаосе</strong>
                         <p style="display: inline-block;">Константин Коптелов</p>
                         <div class="d-flex gap-1 align-items-center card-btn">
-                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <button style="background-color: #e16a00;"
+                                class="btn orange rounded-1 text-light border-1">В корзину</button>
                             <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
                         </div>
                     </div>
@@ -133,69 +146,358 @@
             </div>
             <div id="cards" class="pt-5">
                 <div class="texts row pt-5">
-                    <h1 class="col-12 d-flex align-items-center justify-content-center" style="font-weight: 900; font-size: 25px; color: #241400;">Распродажа</h1>
+                    <h1 class="col-12 d-flex align-items-center justify-content-center"
+                        style="font-weight: 900; font-size: 25px; color: #241400;">Распродажа</h1>
                 </div>
                 <div style="border: none;" class="cards d-flex justify-content-between ">
 
 
-                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                    <div style="display: flex; flex-direction: column;"
+                        class="card shadow p-2 align-items-center d-flex">
                         <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
                         <h1 style="display: inline-block;">300 грн.</h1>
                         <strong style="display: inline-block;">Порядок в Хаосе</strong>
                         <p style="display: inline-block;">Константин Коптелов</p>
                         <div class="d-flex gap-1 align-items-center card-btn">
-                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <button style="background-color: #e16a00;"
+                                class="btn orange rounded-1 text-light border-1">В корзину</button>
                             <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
                         </div>
                     </div>
 
-                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                    <div style="display: flex; flex-direction: column;"
+                        class="card shadow p-2 align-items-center d-flex">
                         <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
                         <h1 style="display: inline-block;">300 грн.</h1>
                         <strong style="display: inline-block;">Порядок в Хаосе</strong>
                         <p style="display: inline-block;">Константин Коптелов</p>
                         <div class="d-flex gap-1 align-items-center card-btn">
-                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <button style="background-color: #e16a00;"
+                                class="btn orange rounded-1 text-light border-1">В корзину</button>
                             <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
                         </div>
                     </div>
 
-                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                    <div style="display: flex; flex-direction: column;"
+                        class="card shadow p-2 align-items-center d-flex">
                         <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
                         <h1 style="display: inline-block;">300 грн.</h1>
                         <strong style="display: inline-block;">Порядок в Хаосе</strong>
                         <p style="display: inline-block;">Константин Коптелов</p>
                         <div class="d-flex gap-1 align-items-center card-btn">
-                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <button style="background-color: #e16a00;"
+                                class="btn orange rounded-1 text-light border-1">В корзину</button>
                             <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
                         </div>
                     </div>
 
-                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                    <div style="display: flex; flex-direction: column;"
+                        class="card shadow p-2 align-items-center d-flex">
                         <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
                         <h1 style="display: inline-block;">300 грн.</h1>
                         <strong style="display: inline-block;">Порядок в Хаосе</strong>
                         <p style="display: inline-block;">Константин Коптелов</p>
                         <div class="d-flex gap-1 align-items-center card-btn">
-                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <button style="background-color: #e16a00;"
+                                class="btn orange rounded-1 text-light border-1">В корзину</button>
                             <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
                         </div>
                     </div>
 
-                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                    <div style="display: flex; flex-direction: column;"
+                        class="card shadow p-2 align-items-center d-flex">
                         <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
                         <h1 style="display: inline-block;">300 грн.</h1>
                         <strong style="display: inline-block;">Порядок в Хаосе</strong>
                         <p style="display: inline-block;">Константин Коптелов</p>
                         <div class="d-flex gap-1 align-items-center card-btn">
-                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <button style="background-color: #e16a00;"
+                                class="btn orange rounded-1 text-light border-1">В корзину</button>
                             <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
                         </div>
                     </div>
 
                 </div>
             </div>
+
+            <section id="catalog">
+                <div class="container">
+                    <div class="wrapper mt-5" style="text-align: center">
+                        <h1>Каталог</h1>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card p-2 mt-3" style="
+                            border: none;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 20px rgba(213, 213, 213, 0.499);
+                          ">
+                                    <h2>Книги</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card p-2 mt-3" style="
+                            border: none;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 20px rgba(213, 213, 213, 0.499);
+                          ">
+                                    <h2>Электронные книги</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card p-2 mt-3" style="
+                            border: none;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 20px rgba(213, 213, 213, 0.499);
+                          ">
+                                    <h2>Аудиокниги</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card p-2 mt-3" style="
+                            border: none;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.499);
+                          ">
+                                    <h2>Игрушки, творчество</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card p-2 mt-3" style="
+                            border: none;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.499);
+                          ">
+                                    <h2>Книжные аксессуарые</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card p-2 mt-3" style="
+                            border: none;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.499);
+                          ">
+                                    <h2>Блокноты</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card p-2 mt-3" style="
+                            border: none;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.499);
+                          ">
+                                    <h2>Блокноты</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card p-2 mt-3" style="
+                            border: none;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.499);
+                          ">
+                                    <h2>Блокноты</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="card p-2 mt-3" style="
+                            border: none;
+                            border-radius: 10px;
+                            box-shadow: 0px 0px 10px rgba(213, 213, 213, 0.499);
+                          ">
+                                    <h2>Блокноты</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="magazin">
+                <div class="container">
+                    <div class="wrapper mt-5" style="text-align: center">
+                        <h1>О магазине</h1>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="card p-4" style="border: none; background-color: transparent">
+                                    <strong style="font-size: 50px; font-weight: 900">35</strong>
+                                    <p style="font-size: 13px; font-weight: 400">
+                                        Филиалов по всей стране
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div class="card p-4 d-flex" style="border: none; background-color: transparent">
+                                    <strong style="font-size: 50px; font-weight: 900">898</strong>
+                                    <p style="font-size: 13px; font-weight: 400">
+                                        Товаров в каталоге
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div class="card p-4 d-flex" style="border: none; background-color: transparent">
+                                    <strong style="font-size: 50px; font-weight: 900">8659</strong>
+                                    <p style="font-size: 13px; font-weight: 400">Покупателей</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3">
+                                <div class="card p-4 d-flex" style="border: none; background-color: transparent">
+                                    <strong style="font-size: 50px; font-weight: 900">72</strong>
+                                    <p style="font-size: 13px; font-weight: 400">
+                                        Часоа доставка по городам
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dastavka mt-5" style="text-align: center">
+                        <h2>Доставка</h2>
+                        <p class="mt-3">
+                            Работаем без праздников и выходных! Жители Киева могут получить
+                            заказ уже в день его оформления. Клиенты из других городов Украины
+                            могут получить заказ в течение 1-5 дней в зависимости от
+                            местонахождения населенного пункта и выбранного способа доставки.
+                            Заказы на сумму свыше 1000 грн доставляются бесплатно*. Доступные
+                            способы, точные сроки и стоимость доставки Вы можете увидеть во
+                            время оформления заказа в корзине заказа, после выбора города
+                            доставки.
+                        </p>
+
+                        <h5 class="mt-3">Подробнее</h5>
+                    </div>
+
+                    <div class="socal mt-5" style="text-align: center">
+                        <h1>Следите за нами в социальных сетях</h1>
+                        <img class="mt-4" src="./images/Frame 6.svg" alt="photo" />
+                    </div>
+                </div>
+            </section>
+
+            <footer style="background-color: #391f00; width: 100%;">
+                <div class="container">
+                    <div class="wrapper mt-5 d-flex flex-column justify-content-between" style="">
+                        <div class="row">
+                            <div class="col-lg-2 d-flex align-items-center">
+                                <div class="card mt-5" style="background-color: transparent">
+                                    <img src="./images/Лого footer.svg" alt="logo" />
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2">
+                                <div class="card mt-5 d-flex align-center"
+                                    style="border: none; background-color: transparent">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">
+                                                <h4>Популярное</h4>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none"
+                                                href="#">Программирование</a>
+                                        </li>
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">Книги для
+                                                детей</a>
+                                        </li>
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">Психология</a>
+                                        </li>
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">Бизнес</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <div class="card mt-5" style="border: none; background-color: transparent">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">
+                                                <h4>Информация</h4>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">Доставка</a>
+                                        </li>
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">Оплата</a>
+                                        </li>
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">O магазине</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-2">
+                                <div class="card mt-5" style="border: none; background-color: transparent">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">
+                                                <h4>Помощь</h4>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">Контакты
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">Возврат товара
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a style="color: #fff" class="text-decoration-none" href="#">Помощь
+                                                покупателю
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-2 d-flex align-self-center flex-column">
+                                <strong style="color: #fff">+38 (071) 339-16-26</strong>
+                                <button class="" style="
+                    background: transparent;
+                    border-color: #391f00;
+                    color: #e16a00;
+                  ">
+                                    Заказать звонок
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="wrapper_bootom my-5">
+                            <div class="row d-flex ">
+                                <p class=" col text-light text-center">
+                                    Все права защищены © 2003-2021 БИБЛИОТЕЧНАЯ
+                                </p>
+                                <p class=" col text-light text-center">
+                                    Условия использования | Политика конфиденциальности
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+
+
         </div>
     </main>
 </body>
+
 </html>
