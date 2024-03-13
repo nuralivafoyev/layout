@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- style.css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- min.css -->
+    <link rel="stylesheet" href="./style.min.css">
+    <title>Bootstrap Layout</title>
+</head>
+<body style="background-color: #FFFAF5;">
+    <header>
+        <div class="container">
+            <nav class="nav d-flex justify-content-between align-items-center">
+                <a href="#"><img src="./images/logo.svg" alt="logo"></a>
+                
+                <ul class="d-xl-flex justify-content-between list-unstyled gap-3 align-items-center d-sm-none d-xs-none">
+                    <li><a class="text-decoration-none" href="#">Акции</a></li>
+                    <li><a class="text-decoration-none" href="#">Каталог</a></li>
+                    <li><a class="text-decoration-none" href="#">Доставка</a></li>
+                    <li><a class="text-decoration-none" href="#">О магазине</a></li>
+                    <li><a class="text-decoration-none" href="#">Блок</a></li>
+                </ul>
+
+                <div class="search">
+                    <input type="search" placeholder="Поиск">
+                    <i class="bx bx-search"></i>
+                </div>
+                
+                <div class="nav_buy">
+                    <i class='bx bx-heart'></i>
+                    <i class='bx bx-cart-download'></i> 
+                    
+                    <select class="select-box">
+                        <option value="">2 228 грн.</option>
+                        <option value="first">тут нет ничего</option>
+                        <option value="second">ахахаха</option>
+                        <option value="third">с рамаданам</option>
+                    </select>                     
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="">
+        <div class="container">
+            <div id="intro" class="row align-items-center">
+                <div class="intro_left col-xl-6 align-items-md-center col-md-12 p-3">
+                    <h1>Киниги от  А до Я</h1>
+                    <p style="width: 60%;">В нашем магазине можно найти книгу на любой вкус. Большой ассортимент. Приятные цены. Интересные сюжеты.</p>
+                    <button class="btn rounded-0 text-light intro_btn" style="background-color: #e16a00;">Перейти в каталог</button>
+                </div>
+                <div class="intro_right col-xl-6 col-md-12 p-3">
+                    <img 
+                    style="mix-blend-mode: multiply;" 
+                    src="./images/slider.jpg" 
+                    alt="Russian Books" >
+                </div>
+            </div>
+
+            <div id="cards">
+                <div class="texts row">
+                    <h1 class="col-4" style="font-weight: 900; font-size: 25px; color: #241400;">Горячие поступления</h1>
+                    <ul class="col-8 d-xl-flex gap-5 list-unstyled align-items-center">
+                        <li>Фантастика</li>
+                        <li>Саморазвитие</li>
+                        <li>Детективы</li>
+                        <li>Детские</li>
+                        <li>Аудиокниги</li>
+                        <li>Другие</li>
+                    </ul>
+                </div>
+                <div style="border: none;" class="cards d-flex justify-content-between pt-5">
+                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                        <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
+                        <h1 style="display: inline-block;">300 грн.</h1>
+                        <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                        <p style="display: inline-block;">Константин Коптелов</p>
+                        <div class="d-flex gap-1 align-items-center card-btn">
+                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                        <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
+                        <h1 style="display: inline-block;">300 грн.</h1>
+                        <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                        <p style="display: inline-block;">Константин Коптелов</p>
+                        <div class="d-flex gap-1 align-items-center card-btn">
+                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                        <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
+                        <h1 style="display: inline-block;">300 грн.</h1>
+                        <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                        <p style="display: inline-block;">Константин Коптелов</p>
+                        <div class="d-flex gap-1 align-items-center card-btn">
+                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                        <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
+                        <h1 style="display: inline-block;">300 грн.</h1>
+                        <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                        <p style="display: inline-block;">Константин Коптелов</p>
+                        <div class="d-flex gap-1 align-items-center card-btn">
+                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                        <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
+                        <h1 style="display: inline-block;">300 грн.</h1>
+                        <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                        <p style="display: inline-block;">Константин Коптелов</p>
+                        <div class="d-flex gap-1 align-items-center card-btn">
+                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="cards" class="pt-5">
+                <div class="texts row pt-5">
+                    <h1 class="col-12 d-flex align-items-center justify-content-center" style="font-weight: 900; font-size: 25px; color: #241400;">Распродажа</h1>
+                </div>
+                <div style="border: none;" class="cards d-flex justify-content-between ">
+
+
+                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                        <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
+                        <h1 style="display: inline-block;">300 грн.</h1>
+                        <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                        <p style="display: inline-block;">Константин Коптелов</p>
+                        <div class="d-flex gap-1 align-items-center card-btn">
+                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                        <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
+                        <h1 style="display: inline-block;">300 грн.</h1>
+                        <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                        <p style="display: inline-block;">Константин Коптелов</p>
+                        <div class="d-flex gap-1 align-items-center card-btn">
+                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                        <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
+                        <h1 style="display: inline-block;">300 грн.</h1>
+                        <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                        <p style="display: inline-block;">Константин Коптелов</p>
+                        <div class="d-flex gap-1 align-items-center card-btn">
+                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                        <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
+                        <h1 style="display: inline-block;">300 грн.</h1>
+                        <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                        <p style="display: inline-block;">Константин Коптелов</p>
+                        <div class="d-flex gap-1 align-items-center card-btn">
+                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; flex-direction: column;" class="card shadow p-2 align-items-center d-flex">
+                        <img width="134" height="190" src="./images/image-book.jpg" alt="Book">
+                        <h1 style="display: inline-block;">300 грн.</h1>
+                        <strong style="display: inline-block;">Порядок в Хаосе</strong>
+                        <p style="display: inline-block;">Константин Коптелов</p>
+                        <div class="d-flex gap-1 align-items-center card-btn">
+                            <button style="background-color: #e16a00;" class="btn orange rounded-1 text-light border-1">В корзину</button>
+                            <i style="color: #e16a00; font-size: 20px;" class="bx bx-heart"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,54 @@
+header {
+    background-color: #f8eadda3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border-bottom: 1px solid #d2d2d2;
+    box-shadow: 0px 3px 15px #d6d5d5a7;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    backdrop-filter: blur(10px);
+}
+
+header .nav ul li a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #241400;
+}
+
+header .nav .search {
+    position: relative;
+}
+
+header .nav .search i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+header .nav .search input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #3b3b3b8f;
+    padding-left: 20px;
+    background: transparent;
+}
+
+.nav_buy i {
+    color: #E16A00;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.select-box {
+    border: none;
+    background-color: transparent;
+}
+
+.select-box > option {
+    background-color: #ebebeb;
+    color: #E16A00;
+}
